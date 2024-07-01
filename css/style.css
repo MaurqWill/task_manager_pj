@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../static/images/task_background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding-top: 56px;
+    margin: 0;
+}
+
+body:not(.home-page) {
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7) !important; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #ffbb33; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffbb33 !important; 
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f3a722 !important; 
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #ffffff !important; 
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #ffffff;
+    padding: 2rem 1rem;
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff; 
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.7); 
+}
+
+.btn-primary {
+    background-color: #ffbb33;
+    border-color: #ffbb33;
+    color: #002f6c; 
+}
+
+.btn-primary:hover {
+    background-color: #f3a722;
+    border-color: #f3a722;
+    color: #002f6c;
+}
